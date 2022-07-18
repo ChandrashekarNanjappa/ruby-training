@@ -31,8 +31,13 @@ Invoking ruby within the file:
     .\<path to ruby script file>
 
 ****************
+Terminal commands:
+Change directory: cd
+List files in current directory: ls
+
 If you are on Mac follow these keyboard shortcuts:
 
 Save file: 'cmd+s'
 Instead of typing whole file name in terminal, type initial 3-4 letters and hit 'tab' key. This will auto complete file name for you.
+Up arrow to retrieve the previous terminal commands
 
