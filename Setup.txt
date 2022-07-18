@@ -1,0 +1,30 @@
+Introduction :
+  - Ruby is a general-purpose, interpreted programming language
+  - Ruby is a true object-oriented programming language
+
+
+
+Installation Guide:
+Windows: https://rubyinstaller.org/downloads/
+
+Mac & Linux: Available by default.
+
+Linux: apt-get install ruby
+
+Mac: brew install ruby
+
+
+Multiple versions of ruby: rbenv. rvm
+Rbenv:   https://github.com/rbenv/rbenv#readme
+
+Mac: brew install rbenv ruby-build
+Linux: sudo apt install rbenv
+
+
+IDE:
+VSCode:
+https://code.visualstudio.com/download
+	
+SublimeText:
+https://www.sublimetext.com/3
+
