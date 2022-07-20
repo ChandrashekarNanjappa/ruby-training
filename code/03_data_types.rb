@@ -87,6 +87,8 @@ p color_codes["blue"]
 color_codes["white"] = 3
 p color_codes
 
+incoming_color = "blue"
+color_codes[incoming_color]
 init_hash = {}
 init_hash["first"] = 1
 init_hash[:other] = "Other"
@@ -142,5 +144,18 @@ p array1 & array2
 
 p array1.include?("4")
 p (required_roles & user_roles).length
+
+# Range
+sample_array = [1,2,3,4,5]
+
+p sample_array[2]
+p sample_array[0..2]
+
+p sample_array[2..4]
+
+p sample_array[1..-1]
+
+p sample_array[1, 2]
+
 
 
