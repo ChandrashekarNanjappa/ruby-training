@@ -158,4 +158,8 @@ p sample_array[1..-1]
 p sample_array[1, 2]
 
 
+list = [1,3,4,5,6]
+list[7] = 7 # 5th and 6th index values will be set as nil as no values assigne to it. 
+p list
+
 

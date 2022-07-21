@@ -1,6 +1,5 @@
 
 #**************************** Looping through lists **********************************
-
 colors = ['b', 'r', 'g']
 
 for color in colors
@@ -54,5 +53,31 @@ p color_codes1
 
 
 
-# select reject 
+arr = [1, 2, 3, 4, 5, 6]
 
+filtered_arr = arr.select {|num| num < 4}
+
+p filtered_arr
+
+
+new_arr = arr.reject {|num| num < 4}
+
+p new_arr
+p arr
+p "*"*20
+new_arr = arr.reject! {|num| num < 4}
+p arr
+p new_arr
+
+cars = [{name: "Alto", price: '1000', color: ['red', 'white']}, {name: "WagnoR", price: '2000', color: ['white']}, {name: "Swift", price: '4000', color: ['red', 'black']}]
+p cars.select {|car| car[:color].include?('white')}
+
+
+car_names = cars.collect {|car| car[:name]}
+
+p car_names
+
+array1 = [2,3,3,7,1,4,5,2]
+p array1.length
+p array1.uniq
+p array1.uniq.length
