@@ -43,7 +43,10 @@ list.each_with_index do |list_item, index |
   p list[index]
 end
 
+# Do while equivalent
+i = 0
+begin
+ p i 
+ i += 1
+end while i == 0
 
-list[5] = 10
-
-p list

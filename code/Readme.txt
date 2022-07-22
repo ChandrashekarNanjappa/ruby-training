@@ -6,3 +6,4 @@
 05_hash_array_builtins.rb: Looping through array and hash objects, important builtin methods
 06_loops.rb: while..do, until...do for loop
 07_function: methods (functions)
+08_classes_functions: Class definitions, methods, class variables, instance variables

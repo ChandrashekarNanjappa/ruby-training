@@ -35,6 +35,14 @@ if !(number%2 == 0)
   p "Number is odd"
 end
 
+#Any value/expression that results in non-nil or not false value it will be considered as true block
+if "test" # This might throw warning. But can be ignored
+  p "True"
+else
+  p "False"
+end
+
+
 #**************************** Unless **********************************
 
 

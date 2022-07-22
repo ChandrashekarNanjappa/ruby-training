@@ -70,11 +70,49 @@ p arr
 p new_arr
 
 cars = [{name: "Alto", price: '1000', color: ['red', 'white']}, {name: "WagnoR", price: '2000', color: ['white']}, {name: "Swift", price: '4000', color: ['red', 'black']}]
-p cars.select {|car| car[:color].include?('white')}
+
+p cars.select {|car| car[:name] == "Alto" }
+
+#How select method works
+result = []
+cars.each do |car|
+  if car[:name] == "Alto" 
+    result << car
+  end
+end
+p result
+#if select! is used then below line in addition will be executed
+# cars = result
+# p cars
+
+
+result = cars.select! {|car| car[:color].include?('red') }
+p result
+
+
+#detect return first matched object in the array. Nil will bre turned if no match found
+result = cars.detect {|car|  car[:color].include?('red') }
+# p result
+
+#How detect method works
+result = nil
+cars.each do |car|
+  if car[:color].include?('red') 
+    result = car
+    break
+  end
+end
+p result 
 
 
 car_names = cars.collect {|car| car[:name]}
+p car_names
 
+# How collect works.
+car_names = []
+cars.each do |car|
+  car_names << car[:name]
+end
 p car_names
 
 array1 = [2,3,3,7,1,4,5,2]

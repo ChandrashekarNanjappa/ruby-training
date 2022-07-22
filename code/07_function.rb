@@ -1,7 +1,7 @@
 cars = [{name: "Alto", price: '1000', color: ['red', 'white']}, {name: "WagnoR", price: '2000', color: ['white']}, {name: "Swift", price: '4000', color: ['red', 'black']}]
 
 
-def get_price(in_cars, in_car)
+def get_price(in_cars, in_car="Alto")
   price = nil
   in_cars.each do |car|
     if car[:name] == in_car
@@ -12,7 +12,17 @@ def get_price(in_cars, in_car)
 end
 
 
+
 car_name = "WagnoR"
 p get_price(cars, car_name)
+p get_price(cars)
+
+
+
+# get_color cars.first # th
+
+def get_color(car={})
+  p car[:color]
+end
 
 
