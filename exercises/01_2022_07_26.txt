@@ -1,0 +1,22 @@
+Ruby Basics - Exercise
+
+1. Declare a variable with your name as value.
+
+2. Print "Hello <your name>!" using the variable you declared in 1.
+
+3. Declare a constant with value "Robosoft". And print the statement "I work at <constant>"
+
+4. Assign a numeral variable 'total_count' with value 13. 
+
+5. Calculate and print half of 'total_count'
+
+6. Find the average of below two variables
+
+    first_result = 83
+    second_result = "89"
+
+7. Using variable 'first_result' from above (#6) print "My first term result is 23%" using string concatination.
+
+8. Initiate a variable named 'dummy_variable'.
+
+9. How do you check a variable is empty? Explain with 'dummy_variable' from #8.
