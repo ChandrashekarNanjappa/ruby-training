@@ -12,6 +12,12 @@ def get_price(in_cars, in_car="Alto")
 end
 
 
+def get_multiple_values
+  status = "200"
+  message = "Suceess"
+  
+  [ status, message]
+end
 
 car_name = "WagnoR"
 p get_price(cars, car_name)
@@ -24,5 +30,10 @@ p get_price(cars)
 def get_color(car={})
   p car[:color]
 end
+
+result_status, result_message = get_multiple_values
+
+p result_status
+p result_message
 
 

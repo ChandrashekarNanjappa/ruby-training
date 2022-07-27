@@ -1,0 +1,41 @@
+10. Create an array 'sample_array' of length 6 containing values of type string, numeral, bool... 
+
+12. Add an item to 'sample_array' 
+
+13. Replace item at index 3 of 'sample_array' with number 100.0
+
+14. print value of item at 3
+
+15. Add an item at index 8
+
+16. Print array item at index 7
+
+17. Print last item of array using builtin method.
+
+18. Print last item of array using index method.
+
+19. Create an array of just numbers and print the total sum of items using builtin method available
+
+20. Create a hash 'student_details' with string key format. Let the keys be name, class, age, gender and roll_number
+
+21. Create a hash with symbolic key format
+
+22. print just the keys of 'student_details'
+
+23. print just the values of 'student_details'
+
+25. convert the 'student_details' keys to symbolic format. Make sure that 'student_details' hash itself has symbolic keys rather than creating new hash. (hint: transform_keys)
+
+26. Print the student's name.
+
+27. Create an array of students named results, where student has name, marks(number), attempt_number (number). Let at least 5 students in the array.
+
+28. List students who got marks less than 50
+
+29. List the students who got marks more than 70 in first attempt
+
+30. Get the all the students from the list except who got less than 50 in 2nd or 3rd attmpt
+
+31. Get the list of marks from all the students
+
+32. Calculate the average marks of the students.
