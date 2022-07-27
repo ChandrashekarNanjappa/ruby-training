@@ -8,6 +8,7 @@ class Student
     
     if name
       @st_name = name
+      @test = "sample"
     else
       @st_name = "Default name"
     end
@@ -24,7 +25,7 @@ class Student
   end
 
   def get_class
-    p @grade
+    @grade
   end
 
   def get_c_name
@@ -59,6 +60,13 @@ end
 
 
 class Teacher
+  def  self.greet_message
+    if true
+      message = "Return true"
+    else
+      message = "Return false"
+    end
+  end
 
   def self.print_global_variable
     p $g_variable
@@ -74,9 +82,14 @@ class Teacher
 end
 
 
-st1 = Student.new("St1")
-# st2 = Student.new
-# st1.print_name
+st1 =  Student.new("St1")
+p st1
+
+message = Teacher.greet_message
+p message
+
+st2 = Student.new
+st1.print_name
 
 st2 = Student.new("St2")
 
